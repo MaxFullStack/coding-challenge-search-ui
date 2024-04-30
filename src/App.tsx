@@ -1,12 +1,5 @@
 import React from 'react';
-
-type SearchResult = {
-  id: string;
-  title: string;
-  url: string;
-  description: string;
-  category: 'VIDEOS' | 'PLAYLISTS' | 'BLOG_POSTS';
-};
+import SearchComponent from './components/SearchComponent';
 
 function App() {
 
@@ -14,7 +7,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <h1>Search UI Challenge</h1>
-                [Your UI here]
+                <SearchComponent />
             </header>
         </div>
     );

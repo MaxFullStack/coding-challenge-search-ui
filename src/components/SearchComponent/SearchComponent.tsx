@@ -44,7 +44,7 @@ const SearchComponent = () => {
 
   return (
     <div className="flex flex-col justify-center space-y-4">
-      <div className="flex items-center space-x-2 mb-4">
+      <div className="flex items-center space-x-2 mb-4 mt-2">
         <Input
           className="p-2 border border-gray-300 rounded w-1/3" 
           value={query}
